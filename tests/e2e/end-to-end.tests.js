@@ -7,7 +7,7 @@ const TestHelper = require('../../utilities/test-helper')
 const Decache = require('decache')
 const Q = require('q')
 const QueryString = require('query-string')
-const Hapi = require('hapi')
+const Hapi = require('@hapi/hapi')
 
 const MongoMemoryServer = require('mongodb-memory-server').MongoMemoryServer
 const mongoServer = new MongoMemoryServer({

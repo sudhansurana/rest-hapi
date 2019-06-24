@@ -18,7 +18,7 @@ let Log = logging.getLogger('tests')
 Log.logLevel = 'ERROR'
 Log = Log.bind('rest-helper-factory')
 let testHelper = require('../../utilities/test-helper')
-let Joi = require('joi')
+let Joi = require('@hapi/joi')
 let fs = require('fs')
 
 sinon.test = sinonTest

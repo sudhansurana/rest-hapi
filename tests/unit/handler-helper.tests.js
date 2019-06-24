@@ -3,7 +3,7 @@
 // Temporarily disabling this rule for tests
 /* eslint no-unused-vars: 0 */
 
-let Boom = require('boom')
+let Boom = require('@hapi/boom')
 let test = require('blue-tape')
 let _ = require('lodash')
 let sinon = require('sinon')
@@ -16,7 +16,7 @@ let logging = require('loggin')
 let logger = logging.getLogger('tests')
 logger.logLevel = 'ERROR'
 let testHelper = require('../../utilities/test-helper')
-let Joi = require('joi')
+let Joi = require('@hapi/joi')
 let Q = require('q')
 
 test('handler-helper exists and has expected members', function(t) {
